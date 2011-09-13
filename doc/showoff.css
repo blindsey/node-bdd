@@ -1,0 +1,17 @@
+.content::after {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  content: url(carbonfive.png);
+}
+
+.bullets ul li {
+  text-align: left;
+  font-size: 36px;
+  list-style-type: disc;
+  margin-left: 100px;
+}
+
+pre.sh_javascript {
+  font-size: 26px;
+}

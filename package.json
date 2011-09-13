@@ -1,0 +1,9 @@
+{
+  "name": "node-tdd",
+  "version": "0.0.1",
+  "dependencies":
+  {
+    "zombie" : "0",
+    "jasmine-node" : "1"
+  }
+}

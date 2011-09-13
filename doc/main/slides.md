@@ -1,3 +1,7 @@
+!SLIDE
+# Behavior Driven Development (BDD) with node.js using jasmine and zombie #
+Ben Lindsey
+
 !SLIDE bullets
 # Who is Carbon Five #
 
@@ -178,6 +182,6 @@ Full integration test
 # More information #
 * [http://zombie.labnotes.org/](http://zombie.labnotes.org/)
 * [https://github.com/mhevery/jasmine-node](https://github.com/mhevery/jasmine-node)
-* [https://github.com/blindsey/node-tdd](https://github.com/blindsey/node-tdd)
+* [https://github.com/blindsey/node-bdd](https://github.com/blindsey/node-bdd)
 * [ben@carbonfive.com](mailto:ben@carbonfive.com)
 * [@ben1mal](http://www.twitter.com/@ben1mal)

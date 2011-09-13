@@ -3,7 +3,7 @@
 Ben Lindsey
 
 !SLIDE bullets
-# Who is Carbon Five #
+# Carbon Five #
 
 * Agile development consultancy founded in 2000
 * 25 engineers split between SF, LA, and TN

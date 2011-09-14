@@ -179,6 +179,16 @@ Full integration test
 	});
 
 !SLIDE bullets
+# Advanced: view testing #
+
+* mock AJAX calls
+* compile your jade templates directly
+* jsdom.env( jade.compile() )
+* load jquery and other libraries
+* var $ = window.$;
+* expect( $( 'input[name="name"]' ).val() ).toMatch( /node rawks/ );
+
+!SLIDE bullets
 # More information #
 * [http://zombie.labnotes.org/](http://zombie.labnotes.org/)
 * [https://github.com/mhevery/jasmine-node](https://github.com/mhevery/jasmine-node)

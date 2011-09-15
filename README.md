@@ -13,3 +13,4 @@ See [presentation](http://node-bdd.heroku.com/)
 
 ## Run the Specs
     $ jasmine-node spec/
+    $ jasmine-node --coffee spec/coffee

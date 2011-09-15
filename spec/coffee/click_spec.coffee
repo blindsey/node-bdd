@@ -3,7 +3,8 @@ zombie = require 'zombie'
 describe 'Given I am a new user', ->
   describe 'When I visit the home page', ->
     beforeEach ->
-      zombie.visit 'http://localhost:1337', (_, browser, status) =>
+      zombie.visit 'http://localhost:1337', (error, browser, status) =>
+        throw error if error
         expect(status).toEqual 200
         @browser = browser
         asyncSpecDone()

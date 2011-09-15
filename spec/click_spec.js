@@ -19,17 +19,17 @@ describe( "Given I am a new user", function() {
     });
 
     describe( "And I click 'submit'", function() {
-       beforeEach( function() {
-         browser.clickLink( 'sumit', function( error ) {
-	   if( error ) throw error;
-	   asyncSpecDone();
-	 });
-	 asyncSpecWait();
-       });
+      beforeEach( function() {
+        browser.clickLink( 'submit', function( error ) {
+          if( error ) throw error;
+          asyncSpecDone();
+        });
+        asyncSpecWait();
+      });
 
-       it( "Then the title changes", function() {
-         expect( browser.window.document.title ).toBe( "node.js" );
-       });
+      it( "Then the title changes", function() {
+        expect( browser.window.document.title ).toBe( "node.js" );
+      });
     });
   });
 });
